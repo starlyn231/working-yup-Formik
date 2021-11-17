@@ -86,7 +86,3 @@ h1::first-letter {
 h2::first-letter {
   font-size: 80px;
 }
-
-p::first-line {
-  color: red;
-}
