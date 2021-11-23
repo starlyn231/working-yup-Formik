@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+.request-cita {
+  grid-column: 3/6;
+  background-color: #90bf3d;
+  display: inline-block;
+  justify-content: center;
+}
+
+.request-cita h2 {
+  font-family: "dincond-bold", Arial, Helvetica, sans-serif;
+  display: block;
+  color: #fff;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 55px;
+  margin: 0 0 14px;
+  padding: auto;
+  text-align: center;
+  float: left;
+}
+
+.request-cita form .user-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 10px 0 07px 0;
+}
+form .input-box span {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 2px;
+  color: #fff;
+}
+.user-details .input-box input,
+select,
+.rsform-select-box {
+  height: 45px;
+  width: 230px;
+  outline: none;
+  font-size: 16px;
+  background-color: #90bf3d;
+
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+  margin: 3px;
+}
+form {
+  margin: 140px;
+}
+
+.user-details {
+}
+
+form button {
+  background: #596c79;
+  border: none;
+  border-bottom: 3px solid black;
+  color: white;
+  display: inline-block;
+  font-family: "dincond-bold";
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 24px;
+  margin: 0;
+  padding: 13px 76px;
+
+  text-align: center;
+}
+.radio-box {
+  display: inline-block;
+  border: 3px solid #ccc;
+}
+input[type="radio"] {
+  background-color: red;
+  margin-right: 10px;
+  display: inline;
+  border: 3px solid #ccc;
+}
