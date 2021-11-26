@@ -1,0 +1,34 @@
+.container {
+  display: inline;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  min-width: 100%;
+  min-height: 100%;
+}
+.mdb-carousel {
+  position: relative;
+  display: flex;
+  width: 100%;
+
+  min-width: 100%;
+}
+
+.sub-carousel {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+
+  min-width: 100%;
+}
+.active {
+  position: absolute;
+  min-width: 100%;
+  width: 100%;
+}
+.imagen-item {
+  position: absolute;
+  min-width: 100%;
+  width: 100%;
+}

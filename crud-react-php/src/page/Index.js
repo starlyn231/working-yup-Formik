@@ -1,9 +1,9 @@
 import React from 'react'
 
-export const Home = () => {
+export const Index = () => {
   return (
     <div>
-     <div>aaaaa</div>
+      <h1>fafdadsf</h1>
     </div>
   )
 }

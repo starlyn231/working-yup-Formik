@@ -32,7 +32,7 @@ form {
   flex-direction: column;
   align-items: flex-start;
   width: fit-content;
-  margin: 5px;
+  margin: 3px;
 }
 label {
   font-size: 20px;
@@ -65,8 +65,10 @@ input:focus {
   margin-top: 1em;
 }
 button {
-  margin: 2px;
+  margin-top: 3px;
   width: 280px;
   height: 40px;
   margin-bottom: 5px;
+  text-align: center;
+  padding: 2px;
 }
