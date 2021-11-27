@@ -43,7 +43,7 @@ export const ExampleForm = () => {
               id="exampleInputPassword1"   name="password" 
                />
             </div>
-            <button type="submit" className="btn btn-primary btn-block">Sign in</button>
+            <button type="submit" className="btn btn-primary btn-block" id="signin">Sign in</button>
             <div className="sign-up">
                Don't have an account? <Link  to="/">Create One  </Link> 
             </div>

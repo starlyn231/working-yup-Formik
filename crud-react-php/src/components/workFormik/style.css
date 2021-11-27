@@ -1,0 +1,58 @@
+.global-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0ffff;
+}
+#page-login {
+  background-color: #f8f8ff;
+  border-radius: 10% / 50%;
+}
+
+form {
+  padding-top: 10px;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.card-title {
+  font-weight: 300;
+}
+
+#signin {
+  font-size: 14px;
+  width: 200px;
+
+  margin-top: 20px;
+  color: #add8e6;
+}
+#signin:hover {
+  box-shadow: rgb(173, 176, 184);
+  cursor: pointer;
+  font-weight: 100;
+  width: 210px;
+}
+
+.login-form {
+  width: 330px;
+  margin: 20px;
+  border-radius: 2px;
+}
+
+.sign-up {
+  text-align: center;
+  padding: 20px 0 0;
+}
+
+.alert {
+  margin-bottom: -30px;
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+span {
+  color: red;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 5px;
+}
