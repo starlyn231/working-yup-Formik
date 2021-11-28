@@ -8,6 +8,7 @@ import { ExampleForm } from "../components/Form/ExampleForm";
 import { FormikBasicPage } from "../components/workFormik/FormikBasicPage";
 import { FormikYupPage } from "../components/workFormik/FormikYupPage";
 import { FormikComponents } from "../components/workFormik/FormikComponets";
+import { FormikAbstraction } from "../components/workFormik/FormikAbstraction";
 
 export const DashboardRoutes = () => {
   return (
@@ -20,6 +21,7 @@ export const DashboardRoutes = () => {
           <Route path="/formikcomponents" element={<FormikComponents />} />
           <Route path="/formik" element={<FormikBasicPage />} />
           <Route path="/form" element={<ExampleForm />} />
+          <Route path="/formikabstraction" element={<FormikAbstraction />} />
           <Route path="/index" element={<Index />} />
           <Route path="/" element={<Login />} />
         </Routes>

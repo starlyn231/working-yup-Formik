@@ -1,9 +1,8 @@
 import { Formik, Field, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
+import { MyTextInput } from "./componetsformik/MyTextInput";
 
-import "./styles/styles.css";
-
-export const FormikComponents = () => {
+export const FormikAbstraction = () => {
   return (
     <div className="main">
       <h1>Formik Components</h1>
@@ -37,6 +36,11 @@ export const FormikComponents = () => {
       >
         {(formik) => (
           <Form>
+            <MyTextInput
+              label="firstName"
+              name="firstName"
+              placeholder="First Name"
+            />
             <label htmlFor="firstName">First Name</label>
             <Field name="firstName" type="text" />
             <ErrorMessage name="firstName" component="span" />
