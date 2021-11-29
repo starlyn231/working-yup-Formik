@@ -1,0 +1,36 @@
+[
+{
+  "type":"input", 
+  "name": " Primer Nombre",
+  "placeholder": "starlyn",
+  "label" :"first Name",
+  "value": ""
+
+},
+
+{
+  "type":"input", 
+  "name": " Apellido",
+  "placeholder": "Marino",
+  "label" :"Last Name",
+  "value": ""
+},
+
+{
+  "type":"email", 
+  "name": " email",
+  "placeholder": "Inserte su Email",
+  "label" :"Correo Electronico",
+  "value": ""
+},
+
+{
+  "type":"select", 
+  "name": "favoriteGame",
+ 
+  "label" :"Favorite Game",
+  "value": "",
+  "opction":["super smash", "Fortine", "resident Evil"]
+}
+
+]
